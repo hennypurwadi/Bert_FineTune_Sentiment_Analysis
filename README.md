@@ -17,6 +17,13 @@ This model is a fine-tuned version of the `bert-base-uncased` model for sentimen
 
 The model was trained and tested on a labeled dataset from [Kaggle](https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp).
 
+## The input dataframe should have a single column named "text". 
+
+##To predict the sentiments, use the predict_sentiments function provided in this repository.
+
+The model is available on Hugging Face 
+## Model Hub: RinInori/bert-base-uncased_finetune_sentiments
+
 To load and use the model and tokenizer, use the following code:
 
 ```python
@@ -83,13 +90,3 @@ MAX_LEN = 512
 label_count = df_Am['label'].value_counts()
 plot_users = label_count.plot.pie(autopct='%1.1f%%', figsize=(4, 4))
 plt.rc('axes', unicode_minus=False)
-
----------------
-The input dataframe should have a single column named "text". 
-
-To predict the sentiments, use the predict_sentiments function provided in this repository.
-
-Hugging Face Model Hub
-
-The model is available on Hugging Face Model Hub: RinInori/bert-base-uncased_finetune_sentiments
-
