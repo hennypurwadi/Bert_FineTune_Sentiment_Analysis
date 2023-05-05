@@ -1,5 +1,18 @@
 # BERT-base-uncased Fine-tuned for Sentiment Analysis
 
+---
+language: en
+license: apache-2.0
+datasets:
+- custom
+task_categories:
+- text-classification
+task_ids:
+- sentiment-classification
+---
+
+# BERT-base-uncased Fine-tuned for Sentiment Analysis
+
 This model is a fine-tuned version of the `bert-base-uncased` model for sentiment analysis. It is trained on a dataset of texts with six different emotions: anger, fear, joy, love, sadness, and surprise.
 
 ## Model Training Details
@@ -26,8 +39,7 @@ The model is available on Hugging Face
 
 ![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_HuggingFace_web.jpg?raw=true)
 
-
-To load and use the model and tokenizer, use the following code:
+##To load and use the model and tokenizer, use the following code:
 
 ```python
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
