@@ -17,9 +17,9 @@ This model is a fine-tuned version of the `bert-base-uncased` model for sentimen
 
 The model was trained and tested on a labeled dataset from [Kaggle](https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp).
 
-## The input dataframe should have a single column named "text". 
+##To predict the sentiments on unlabeled datasets, use the predict_sentiments function provided in this repository.
 
-##To predict the sentiments, use the predict_sentiments function provided in this repository.
+## The unlabeled daataset to be predicted should have a single column named "text". 
 
 The model is available on Hugging Face 
 ## Model Hub: https://huggingface.co/RinInori/bert-base-uncased_finetune_sentiments
