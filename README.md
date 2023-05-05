@@ -22,7 +22,8 @@ The model was trained and tested on a labeled dataset from [Kaggle](https://www.
 ##To predict the sentiments, use the predict_sentiments function provided in this repository.
 
 The model is available on Hugging Face 
-## Model Hub: RinInori/bert-base-uncased_finetune_sentiments
+## Model Hub: https://huggingface.co/RinInori/bert-base-uncased_finetune_sentiments
+
 
 To load and use the model and tokenizer, use the following code:
 
