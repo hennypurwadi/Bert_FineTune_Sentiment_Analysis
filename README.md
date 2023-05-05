@@ -10,7 +10,7 @@ This model is a fine-tuned version of the `bert-base-uncased` model for sentimen
 - **Epsilon**: 1e-8
 - **Epochs**: 10
 - **Warmup steps**: 0
-- **Optimizer**: AdamW with `correct_bias=False`
+- **Optimizer**: AdamW with correct_bias=False
 - **Scheduler**: Linear scheduler with warmup
 
 ## Dataset
