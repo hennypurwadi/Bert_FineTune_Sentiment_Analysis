@@ -24,7 +24,6 @@ This model is a fine-tuned version of the `bert-base-uncased` model for sentimen
 - **Epochs**: 10
 - **Warmup steps**: 0
 - **Optimizer**: AdamW with correct_bias=False
-- **Scheduler**: Linear scheduler with warmup
 
 ## Dataset
 
