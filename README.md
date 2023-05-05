@@ -5,7 +5,7 @@ This model is a fine-tuned version of the `bert-base-uncased` model for sentimen
 ## Model Training Details
 
 - **Pretrained model**: `bert-base-uncased`
-- **Number of labels**: 6,  which are " "anger": 0,  "fear": 1,  "joy": 2,  "love": 3,  "sadness": 4,  "surprise": 5
+- **Number of labels**: 6,  which are ` "anger",  "fear",  "joy",  "love",  "sadness",  "surprise"
 - **Learning rate**: 2e-5
 - **Epsilon**: 1e-8
 - **Epochs**: 10
