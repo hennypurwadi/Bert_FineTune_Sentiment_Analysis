@@ -24,6 +24,8 @@ The model was trained and tested on a labeled dataset from [Kaggle](https://www.
 The model is available on Hugging Face 
 ## Model Hub: https://huggingface.co/RinInori/bert-base-uncased_finetune_sentiments
 
+![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_HuggingFace_web.jpg?raw=true)
+
 
 To load and use the model and tokenizer, use the following code:
 
