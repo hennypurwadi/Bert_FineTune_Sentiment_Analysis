@@ -1,5 +1,8 @@
 # BERT Fine-tuned for Sentiment Analysis
-Mode saved in: https://huggingface.co/RinInori/bert-base-uncased_finetune_sentiments
+
+The model is available on Hugging Face 
+## Model Hub: https://huggingface.co/RinInori/bert-base-uncased_finetune_sentiments
+![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_HuggingFace_web.jpg?raw=true)
 ---
 language: en
 license: apache-2.0
@@ -32,11 +35,6 @@ The model was trained and tested on a labeled dataset from [Kaggle](https://www.
 ##To predict the sentiments on unlabeled datasets, use the predict_sentiments function provided in this repository.
 
 ## The unlabeled daataset to be predicted should have a single column named "text". 
-
-The model is available on Hugging Face 
-## Model Hub: https://huggingface.co/RinInori/bert-base-uncased_finetune_sentiments
-
-![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_HuggingFace_web.jpg?raw=true)
 
 ##To load and use the model and tokenizer, use the following code:
 
