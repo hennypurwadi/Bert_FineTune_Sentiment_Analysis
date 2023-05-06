@@ -1,5 +1,5 @@
 # BERT Fine-tuned for Sentiment Analysis
-
+Mode saved in: https://huggingface.co/RinInori/bert-base-uncased_finetune_sentiments
 ---
 language: en
 license: apache-2.0
