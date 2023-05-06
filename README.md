@@ -35,7 +35,7 @@ The model was trained and tested on a labeled dataset from [Kaggle](https://www.
 
 ##To predict the sentiments on unlabeled datasets, use the predict_sentiments function provided in this repository.
 
-## The unlabeled daataset to be predicted should have a single column named "text". 
+## The unlabeled dataset to be predicted should have a single column named "text". 
 
 ##To load and use the model and tokenizer, use the following code:
 
