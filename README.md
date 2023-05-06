@@ -75,7 +75,7 @@ def predict_sentiments(model_name, tokenizer_name, input_file):
 model_name = "RinInori/bert-base-uncased_finetune_sentiments"
 tokenizer_name = "RinInori/bert-base-uncased_finetune_sentiments"
 
-#Predict Unlabeled data
+#Predict Unlabeled dataset collected from Twitter (dc_America.csv)
 predict_sentiments(model_name, tokenizer_name, '/content/drive/MyDrive/DLBBT01/data/c_unlabeled/dc_America.csv')
 
 # Load the predicted data
