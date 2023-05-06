@@ -1,4 +1,4 @@
-# BERT-base-uncased Fine-tuned for Sentiment Analysis
+# BERT Fine-tuned for Sentiment Analysis
 
 ---
 language: en
