@@ -1,7 +1,7 @@
 # BERT Fine-tuned for Sentiment Analysis
 
 The model is available on Hugging Face 
-## Model Hub: https://huggingface.co/RinInori/bert-base-uncased_finetune_sentiments
+## Model Hub: https://huggingface.co/RinInori/bert-base-uncased_finetuned_sentiments
 
 ![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_HuggingFace_2.jpg?raw=true)
 ---
