@@ -3,7 +3,8 @@
 The model is available on Hugging Face 
 ## Model Hub: https://huggingface.co/RinInori/bert-base-uncased_finetuned_sentiments
 
-![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_HuggingFace.jpg?raw=true)
+![Image description](https://github.com/hennypurwadi/Bert_FineTune_Sentiment_Analysis/blob/main/images/SaveModel_Tokenizer_To_Huggingface.jpg?raw=true)
+
 ---
 language: en
 license: apache-2.0
