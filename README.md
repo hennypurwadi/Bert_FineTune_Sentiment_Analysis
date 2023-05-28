@@ -16,7 +16,7 @@ task_ids:
 - sentiment-classification
 ---
 
-# BERT-base-uncased Fine-tuned for Sentiment Analysis
+# BERT ForSequenceClassification_fine-tuninge-tuned for Sentiment Analysis
 
 This model is a fine-tuned version of the `bert-base-uncased` model for sentiment analysis. 
 It is trained on a dataset of texts with six different emotions: anger, fear, joy, love, sadness, and surprise.
